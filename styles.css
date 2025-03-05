@@ -1,6 +1,60 @@
-
-*{
-  background-color: #3498db;
-  font-family: Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  box-sizing: border-box;
 }
-  
+
+body {
+  background-color: #f4f4f4;
+}
+
+header, footer {
+  background-color: #333;
+  text-align: center;
+  padding: 25px 0;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+.container section {
+  padding-top: 30px;
+  justify-content: space-evenly;
+}
+.container section img {
+  width: 200px;
+  margin: 0 20px;
+}
+.container section .project {
+  height: 100px;
+  padding-left: 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: aquamarine;
+}
+.container section .project a {
+  text-decoration: none;
+  color: black;
+}
+.container section .project :hover {
+  border-bottom: 2px solid rgb(8, 8, 8);
+}
+.container h2 {
+  font-size: 2rem;
+  color: rgb(8, 122, 253);
+}
+.container .profile-img {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */
